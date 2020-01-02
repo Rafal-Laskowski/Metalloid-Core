@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.metalloid-project</groupId>
 	<artifactId>metalloid-core</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 	<packaging>jar</packaging>
 
 	<name>Metalloid Core</name>
@@ -90,6 +90,11 @@
 			<groupId>com.github.metalloid-project</groupId>
 			<artifactId>webdriver-pool</artifactId>
 			<version>1.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.metalloid-project</groupId>
+			<artifactId>name</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 

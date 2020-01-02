@@ -1,5 +1,6 @@
 package com.github.metalloid.core;
 
+import com.github.metalloid.name.NameStore;
 import com.github.metalloid.pagefactory.PageFactory;
 import com.github.metalloid.webdriver.WebDriverPool;
 import com.github.metalloid.webdriver.utils.UtilsFactory;
@@ -12,6 +13,7 @@ public class Metalloid {
         PageFactory.init(driver, page);
         UtilsFactory.initUtilities(driver, page);
         ConditionEvaluator.evaluate(driver, page);
+        NameStore.store(page);
     }
 
     /**
