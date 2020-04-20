@@ -1,8 +1,8 @@
 package com.github.metalloid.core;
 
+import com.github.metalloid.name.NameStore;
 import com.github.metalloid.pagefactory.PageFactory;
 import com.github.metalloid.webdriver.WebDriverPool;
-import com.github.metalloid.webdriver.utils.NameStore;
 import com.github.metalloid.webdriver.utils.UtilsFactory;
 import com.github.metalloid.webdriver.utils.conditions.ConditionEvaluator;
 import org.openqa.selenium.WebDriver;
