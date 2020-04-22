@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.metalloid-project</groupId>
 	<artifactId>metalloid-core</artifactId>
-	<version>2.1.2</version>
+	<version>2.2.0</version>
 	<packaging>jar</packaging>
 
 	<name>Metalloid Core</name>
@@ -84,7 +84,7 @@
 		<dependency>
 			<groupId>com.github.metalloid-project</groupId>
 			<artifactId>metalloid-expected-conditions</artifactId>
-			<version>2.1.1</version>
+			<version>2.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.metalloid-project</groupId>

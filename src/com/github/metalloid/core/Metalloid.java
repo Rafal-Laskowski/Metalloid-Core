@@ -24,4 +24,16 @@ public class Metalloid {
         WebDriver driver = WebDriverPool.get();
         initializePage(driver, page);
     }
+
+    public static String getCurrentUrl() {
+        return WebDriverPool.get().getCurrentUrl();
+    }
+
+    public static void get(String url) {
+        WebDriverPool.get().get(url);
+    }
+
+    public static String getTitle() {
+        return WebDriverPool.get().getTitle();
+    }
 }
