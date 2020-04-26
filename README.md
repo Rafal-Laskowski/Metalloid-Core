@@ -34,7 +34,9 @@ Allows to create custom conditions. Works with Controls, WebElements and List<> 
 [Wiki page](https://github.com/Rafal-Laskowski/Metalloid-Expected-Conditions/wiki)
 
 * Metalloid-WebDriver-Pool
-TO BE DONE
+Thread-safe WebDriver Factory that creates an instance of a `WebDriver` for each test. Driven by system properties.
+Allows to set up options easily
+[Wiki page](https://github.com/Rafal-Laskowski/Metalloid-WebDriver-Pool/wiki)
 
 * Metalloid-WebElement-Name
 Introduces `@Name` annotation which allows you to add (and then read) the description of WebElements or Controls
